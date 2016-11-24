@@ -1,6 +1,6 @@
 /*Layout*/
 .container {
-	max-width: 1024px;
+	width: 80%;
 
 	margin-left: auto;
 	margin-right: auto;
@@ -29,4 +29,39 @@ nav li {
 
 	margin-left: auto;
 	margin-right: auto;
+}
+
+/* Sort Seiten */
+#eingabe {
+	margin-bottom: 20px;
+}
+#reihen table {
+	width: 100%;
+}
+#reihen td {
+	border: 1px solid grey;
+	border-radius: 13px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+#reihen .spacer {
+	border: 0;
+	padding: 40px;
+}
+#reihen .spacer:last-child {
+	padding: 0;
+}
+.karte {
+	display: inline-block;
+	width: 70px;
+	height: 100px;
+
+	border: 1px solid black;
+	border-radius: 5px;
+
+	margin-right: 5px;
+
+	font-size: 1.5em;
+	text-align: center;
+	padding-top: 60px;
 }
