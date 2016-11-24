@@ -1,0 +1,32 @@
+/*Layout*/
+.container {
+	max-width: 1024px;
+
+	margin-left: auto;
+	margin-right: auto;
+}
+nav {
+	min-width: 100%;
+	margin-bottom: 2em;
+	border-bottom: 1px solid black;
+}
+nav ul {
+	padding-left: 0;
+	margin-bottom: 5px;
+}
+nav li {
+	display: inline;
+	list-style-type: none;
+	padding-right: 30px;
+}
+.content {
+}
+
+/*Front page*/
+.xkcd {
+	max-width: 90%;
+	display: block;
+
+	margin-left: auto;
+	margin-right: auto;
+}
